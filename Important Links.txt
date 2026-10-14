@@ -1,1 +1,2 @@
 https://www.google.com
+This is the file i have created to explain the basic of Git
