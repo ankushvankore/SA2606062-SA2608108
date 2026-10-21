@@ -16,5 +16,4 @@ public class D05GetURL {
 				
 		driver.close();
 	}
-
 }
