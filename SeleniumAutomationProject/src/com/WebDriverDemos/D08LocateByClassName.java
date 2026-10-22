@@ -10,7 +10,7 @@ public class D08LocateByClassName {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		
 		driver.get("https://www.google.com/");
 		
