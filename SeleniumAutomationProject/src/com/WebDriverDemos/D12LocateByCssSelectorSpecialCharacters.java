@@ -12,8 +12,13 @@ public class D12LocateByCssSelectorSpecialCharacters {
 		
 		driver.get("https://register.rediff.com/register/register.php?FormName=user_details");
 		
+		//^ - Starts with
 		driver.findElement(By.cssSelector("input[name^='name']")).sendKeys("Santhosh Reddy");
 		driver.findElement(By.cssSelector("input[name^='login']")).sendKeys("santhosh");
+		//$ - Ends with
+		driver.findElement(By.cssSelector("input[id$='passwd']")).sendKeys("santosh@123");
+		//* - Contains (Partial text)
+		driver.findElement(By.cssSelector("input[placeholder*='type']")).sendKeys("santosh@123");
 	}
 
 }
