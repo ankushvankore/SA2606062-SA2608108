@@ -20,7 +20,8 @@ public class D17HandlingRadioButton {
 		System.out.println("Enabled : " + gnFemale.isEnabled());
 		System.out.println("Visible : " + gnFemale.isDisplayed());
 		
-		gnFemale.click();
+		if(gnFemale.isEnabled())
+			gnFemale.click();
 		
 		System.out.println("After...");
 		System.out.println("Selected: " + gnFemale.isSelected());

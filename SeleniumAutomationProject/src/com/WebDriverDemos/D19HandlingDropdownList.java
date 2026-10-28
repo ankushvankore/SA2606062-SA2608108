@@ -33,6 +33,15 @@ public class D19HandlingDropdownList {
 		
 		for(WebElement c : allCountries)
 			System.out.println(c.getText());
+		
+		//country.selectByVisibleText("France");
+		//country.selectByContainsVisibleText("alia");
+		//country.selectByValue("brazil");
+		country.selectByIndex(9);
+		
+		System.out.println("Selected Country: " + country.getFirstSelectedOption().getText());
+		
+		driver.close();
 	}
 
 }
