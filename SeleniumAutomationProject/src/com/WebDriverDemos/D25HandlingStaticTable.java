@@ -43,6 +43,9 @@ public class D25HandlingStaticTable {
 		System.out.println("Data from Book Name Column...");
 		for(WebElement bn : bookName)
 			System.out.println(bn.getText());
+		
+		
+		
 		driver.close();
 	}
 

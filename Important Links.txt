@@ -1,2 +1,5 @@
 https://www.google.com
 This is the file i have created to explain the basic of Git
+
+Project discussion
+https://drive.google.com/drive/folders/1Qo7mYlxQZnT13hbomki1l5lgoo8npoA4
