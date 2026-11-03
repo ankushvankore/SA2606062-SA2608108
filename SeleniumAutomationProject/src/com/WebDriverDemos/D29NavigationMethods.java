@@ -1,4 +1,4 @@
-package com.Assignments;
+package com.WebDriverDemos;
 
 import java.time.Duration;
 
