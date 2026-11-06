@@ -1,29 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-11-05T21:54:52 IST" name="Default suite" finished-at="2026-11-05T21:55:32 IST" duration-ms="39797">
+  <suite started-at="2026-11-06T21:58:32 IST" name="Default suite" finished-at="2026-11-06T21:58:33 IST" duration-ms="204">
     <groups>
     </groups>
-    <test started-at="2026-11-05T21:54:52 IST" name="Default test" finished-at="2026-11-05T21:55:32 IST" duration-ms="39797">
-      <class name="com.TestNGDemos.D02OnlineShoppingApps">
-        <test-method signature="testAmazon()[pri:0, instance:com.TestNGDemos.D02OnlineShoppingApps@5c6648b0]" started-at="2026-11-05T21:54:52 IST" name="testAmazon" finished-at="2026-11-05T21:55:04 IST" duration-ms="11954" status="PASS">
+    <test started-at="2026-11-06T21:58:32 IST" name="Default test" finished-at="2026-11-06T21:58:33 IST" duration-ms="204">
+      <class name="com.TestNGDemos.D06DataProviderDemo">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:32 IST" name="beforeTest" finished-at="2026-11-06T21:58:32 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAmazon -->
-        <test-method signature="testFlipkart()[pri:0, instance:com.TestNGDemos.D02OnlineShoppingApps@5c6648b0]" started-at="2026-11-05T21:55:04 IST" name="testFlipkart" finished-at="2026-11-05T21:55:12 IST" duration-ms="7763" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:33 IST" name="f" data-provider="dp" finished-at="2026-11-06T21:58:33 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[101]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFlipkart -->
-        <test-method signature="testMyntra()[pri:0, instance:com.TestNGDemos.D02OnlineShoppingApps@5c6648b0]" started-at="2026-11-05T21:55:12 IST" name="testMyntra" finished-at="2026-11-05T21:55:24 IST" duration-ms="11996" status="PASS">
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:33 IST" name="afterMethod" finished-at="2026-11-06T21:58:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMyntra -->
-        <test-method signature="testSnapdeal()[pri:0, instance:com.TestNGDemos.D02OnlineShoppingApps@5c6648b0]" started-at="2026-11-05T21:55:24 IST" name="testSnapdeal" finished-at="2026-11-05T21:55:32 IST" duration-ms="7939" status="PASS">
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:33 IST" name="f" data-provider="dp" finished-at="2026-11-06T21:58:33 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[102]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puja]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSnapdeal -->
-      </class> <!-- com.TestNGDemos.D02OnlineShoppingApps -->
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:33 IST" name="afterMethod" finished-at="2026-11-06T21:58:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="f(java.lang.Integer,java.lang.String)[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:33 IST" name="f" data-provider="dp" finished-at="2026-11-06T21:58:33 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Saritha]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:33 IST" name="afterMethod" finished-at="2026-11-06T21:58:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D06DataProviderDemo@4c12331b]" started-at="2026-11-06T21:58:33 IST" name="afterTest" finished-at="2026-11-06T21:58:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.TestNGDemos.D06DataProviderDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

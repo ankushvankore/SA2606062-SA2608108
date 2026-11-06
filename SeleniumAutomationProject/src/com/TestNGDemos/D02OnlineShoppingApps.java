@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class D02OnlineShoppingApps {
-	@Test
+	@Test (priority = 2)
 	public void testMyntra() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -19,7 +19,7 @@ public class D02OnlineShoppingApps {
 		driver.quit();
 	}
 	
-	@Test
+	@Test (priority = 1)
 	public void testFlipkart() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -31,7 +31,7 @@ public class D02OnlineShoppingApps {
 		driver.quit();
 	}
 	
-	@Test
+	@Test (priority = 4)
 	public void testSnapdeal() {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -43,7 +43,7 @@ public class D02OnlineShoppingApps {
 		driver.quit();
 	}
 	
-	@Test
+	@Test (priority = 3)
 	public void testAmazon() throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
