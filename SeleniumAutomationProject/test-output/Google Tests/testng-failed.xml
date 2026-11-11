@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Google Tests]">
+  <test thread-count="5" name="Execute Groups(failed)">
+    <groups>
+      <run>
+        <include name="HeaderLinks"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestNGDemos.D05GoogleAssignment">
+        <methods>
+          <include name="testAboutLink"/>
+          <include name="testStoreLink"/>
+        </methods>
+      </class> <!-- com.TestNGDemos.D05GoogleAssignment -->
+    </classes>
+  </test> <!-- Execute Groups(failed) -->
+</suite> <!-- Failed suite [Google Tests] -->
