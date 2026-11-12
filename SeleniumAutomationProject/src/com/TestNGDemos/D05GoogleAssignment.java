@@ -42,26 +42,25 @@ public class D05GoogleAssignment {
 		Assert.assertTrue(driver.getTitle().contains("Get Listed on Google"));
 	}
 
-	@BeforeMethod
+	@BeforeMethod (alwaysRun = true)
 	public void beforeMethod() {
 		driver.get("https://google.com");
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@AfterMethod
+	@AfterMethod (alwaysRun = true)
 	public void afterMethod() {
 		System.out.println("Title: " + driver.getTitle());
 	}
 
-	@BeforeTest
+	@BeforeTest (alwaysRun = true)
 	public void beforeTest() {
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-
 	}
 
-	@AfterTest
+	@AfterTest (alwaysRun = true)
 	public void afterTest() {
 		driver.quit();
 	}

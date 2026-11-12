@@ -10,7 +10,9 @@
     <classes>
       <class name="com.TestNGDemos.D05GoogleAssignment">
         <methods>
+          <include name="testAdvtLink"/>
           <include name="testAboutLink"/>
+          <include name="testBusinessLink"/>
           <include name="testStoreLink"/>
         </methods>
       </class> <!-- com.TestNGDemos.D05GoogleAssignment -->
