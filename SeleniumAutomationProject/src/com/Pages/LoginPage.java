@@ -11,11 +11,12 @@ public class LoginPage {
 	//Page Factory : is a subset of POM
 	//It is repository of WebElements
 	@FindBy(xpath = "//input[@placeholder='Username']") WebElement userName;
+	@FindBy(name = "password") WebElement passwordTextBox;
 	
 	public LoginPage(WebDriver d) {
 		driver = d;
 		PageFactory.initElements(driver, this);
-		//This will intilize the WebElements those are declared using @FindBy 
+		//This will initialize the WebElements those are declared using @FindBy 
 	}
 	
 	public void enterUserName(String un) {
@@ -24,7 +25,8 @@ public class LoginPage {
 	}
 	
 	public void enterPassword(String ps) {
-		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(ps);
+		//driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(ps);
+		passwordTextBox.sendKeys(ps);
 	}
 	
 	public void clickOnLoginButton() {
@@ -34,7 +36,8 @@ public class LoginPage {
 	public void directLogin(String un, String ps) {
 		//driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(un);
 		userName.sendKeys(un);
-		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(ps);
+		//driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(ps);
+		passwordTextBox.sendKeys(ps);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 }
