@@ -3,3 +3,12 @@ This is the file i have created to explain the basic of Git
 
 Project discussion
 https://drive.google.com/drive/folders/1Qo7mYlxQZnT13hbomki1l5lgoo8npoA4
+
+Extent Report dependency
+https://mvnrepository.com/artifact/com.aventstack/extentreports
+
+Apache POI Download link
+https://archive.apache.org/dist/poi/release/bin/
+
+Cucumber skeleton
+https://github.com/cucumber/cucumber-java-skeleton/commit/d7249b50c570816eba27ce94557e1de7e9b0f97
