@@ -44,14 +44,14 @@ public class S03MultipleScenarios {
 
 	//Invalid data
 	
-	@Given("Open Practice Page")
+	/*@Given("Open Practice Page")
 	public void open_practice_page() {
 		driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    
 	    driver.get("https://practicetestautomation.com/practice-test-login/");
-	}
+	}*/
 
 	@When("Enter invalid user name")
 	public void enter_invalid_user_name() {

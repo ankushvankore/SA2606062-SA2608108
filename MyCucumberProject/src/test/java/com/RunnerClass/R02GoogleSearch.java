@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/F02GoogleSearch.feature",
+@CucumberOptions(features = "src/test/resources/F02GoogleSearch.feature", 
 					glue = "com.StepDef")
 public class R02GoogleSearch {
 
