@@ -1,4 +1,4 @@
-@AllTests
+@AllSeleniumTests
 Feature: Validate tabs of Selenium Home Page
 
   Background: 
@@ -23,6 +23,7 @@ Feature: Validate tabs of Selenium Home Page
   Scenario: To validate Support Tab
     When Click on Support tab link
     Then Support page should open
+    
     #Tags in Cucumber
     #Tags allows to execute or skip sinlge / multiple scenarios from feature file
     #Tags must be specified inside the feature file only. And before Scenario: keyword

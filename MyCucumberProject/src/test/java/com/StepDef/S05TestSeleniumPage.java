@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -14,13 +16,25 @@ import io.cucumber.java.en.When;
 
 public class S05TestSeleniumPage {
 	WebDriver driver;
+	
+	//@Before
+	public void before() {
+		System.out.println("This is before hook...");
+	}
+	
+	//@After
+	public void after() {
+		driver.quit();
+	}
+	
 	@Given("Open {string}")
 	public void open(String string) {
 		driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	    
-	    driver.get("https://www.selenium.dev/");		}
+	    driver.get("https://www.selenium.dev/");
+	}
 
 	@When("Click on downloads tab link")
 	public void click_on_downloads_tab_link() {
@@ -39,7 +53,7 @@ public class S05TestSeleniumPage {
 
 	@Then("Documentation page should open")
 	public void documentation_page_should_open() {
-	    Assert.assertTrue(driver.getCurrentUrl().contains("documentation"));
+	    Assert.assertTrue(driver.getCurrentUrl().contains("Documentation"));
 	}
 
 	@When("Click on Projects tab link")

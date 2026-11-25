@@ -36,5 +36,6 @@ public class S02GoogleSearch {
 	@Then("A valid search result should display")
 	public void a_valid_search_result_should_display() {
 	    System.out.println("Search finish...");
+	    driver.quit();
 	}
 }
